@@ -1,7 +1,10 @@
 # Simple Web Application
 
-This is a simple web application using [Python Flask](http://flask.pocoo.org/) and [MySQL](https://www.mysql.com/) database. 
-This is used in the demonstration of development of Ansible Playbooks.
+This is a simple web application using [Python Flask](http://flask.pocoo.org/).
+
+This is based on a original project [simple-webapp]https://github.com/mmumshad/simple-webapp from [Mumshad Mannambeth](https://www.udemy.com/user/mumshad-mannambeth/) and also in a example code used as example during training lectures.
+
+This is used as final project from [Docker for the Absolute Beginner - Hands On - DevOps]https://www.udemy.com/learn-docker/
   
   Below are the steps required to get this working on a base linux system.
   
