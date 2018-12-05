@@ -2,11 +2,11 @@
 
 This is a simple web application using [Python Flask](http://flask.pocoo.org/).
 
-This is based on a original project [simple-webapp-color]https://github.com/mmumshad/simple-webapp-color from [Mumshad Mannambeth](https://www.udemy.com/user/mumshad-mannambeth/).
+This is based on a original project [simple-webapp-color](https://github.com/mmumshad/simple-webapp-color) from [Mumshad Mannambeth](https://www.udemy.com/user/mumshad-mannambeth/).
 
-This is used as final project from [Docker for the Absolute Beginner - Hands On - DevOps]https://www.udemy.com/learn-docker/
+This is used as final project from [Docker for the Absolute Beginner - Hands On - DevOps](https://www.udemy.com/learn-docker/)
 
-Created as a example to how [dockerizing]https://hub.docker.com/r/andersonbispos/simple-webapp-colored/ a application.
+Created as a example to how [dockerizing](https://hub.docker.com/r/andersonbispos/simple-webapp-colored/) a application.
 
 Previous docker image was created with all steps bellow already done and is ready to running container.
   
