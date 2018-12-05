@@ -2,7 +2,7 @@
 
 This is a simple web application using [Python Flask](http://flask.pocoo.org/).
 
-This is based on a original project [simple-webapp-color](https://github.com/mmumshad/simple-webapp-color) from [Mumshad Mannambeth](https://www.udemy.com/user/mumshad-mannambeth/).
+This is a fork of original project [simple-webapp-color](https://github.com/mmumshad/simple-webapp-color) from [Mumshad Mannambeth](https://www.udemy.com/user/mumshad-mannambeth/).
 
 This is used as final project from [Docker for the Absolute Beginner - Hands On - DevOps](https://www.udemy.com/learn-docker/)
 
