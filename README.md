@@ -36,10 +36,10 @@ Start web server
 
     FLASK_APP=app.py flask run --host=0.0.0.0
     
-## 6. Test
+## 4. Test
 
 Open a browser and go to URL
 
-    http://<IP>:5000                            => Welcome
-    http://<IP>:5000/how%20are%20you            => I am good, how about you?
-    http://<IP>:5000/read%20from%20database     => JOHN
+    http://<IP>:5000                       => Hello World!
+    http://<IP>:5000/color/blue            => Hello World! (blue background)
+    http://<IP>:5000/color/red             => Hello World! (red background)
