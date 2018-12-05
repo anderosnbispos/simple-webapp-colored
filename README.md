@@ -2,15 +2,17 @@
 
 This is a simple web application using [Python Flask](http://flask.pocoo.org/).
 
-This is based on a original project [simple-webapp]https://github.com/mmumshad/simple-webapp from [Mumshad Mannambeth](https://www.udemy.com/user/mumshad-mannambeth/) and also in a example code used as example during training lectures.
+This is based on a original project [simple-webapp-color]https://github.com/mmumshad/simple-webapp-color from [Mumshad Mannambeth](https://www.udemy.com/user/mumshad-mannambeth/).
 
 This is used as final project from [Docker for the Absolute Beginner - Hands On - DevOps]https://www.udemy.com/learn-docker/
+
+Created as a example to how [dockerizing]https://hub.docker.com/r/andersonbispos/simple-webapp-colored/ a application.
+
+Previous docker image was created with all steps bellow already done and is ready to running container.
   
   Below are the steps required to get this working on a base linux system.
   
   - Install all required dependencies
-  - Install and Configure Database
-  - Start Database Service
   - Install and Configure Web Server
   - Start Web Server
    
@@ -18,44 +20,17 @@ This is used as final project from [Docker for the Absolute Beginner - Hands On 
   
   Python and its dependencies
 
-    apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
-
-   
-## 2. Install and Configure Database
+    apt-get install -y python python-setuptools python-dev build-essential python-pip
     
- Install MySQL database
-    
-    apt-get install -y mysql-server mysql-client
-
-## 3. Start Database Service
-  - Start the database service
-    
-        service mysql start
-
-  - Create database and database users
-        
-        # mysql -u <username> -p
-        
-        mysql> CREATE DATABASE employee_db;
-        mysql> GRANT ALL ON *.* to db_user@'%' IDENTIFIED BY 'Passw0rd';
-        mysql> USE employee_db;
-        mysql> CREATE TABLE employees (name VARCHAR(20));
-        
-  - Insert some test data
-        
-        mysql> INSERT INTO employees VALUES ('JOHN');
-    
-## 4. Install and Configure Web Server
+## 2. Install and Configure Web Server
 
 Install Python Flask dependency
 
     pip install flask
-    pip install flask-mysql
 
-- Copy app.py or download it from source repository
-- Configure database credentials and parameters 
+- Copy app.py file and template/ folder or download it from source repository
 
-## 5. Start Web Server
+## 3. Start Web Server
 
 Start web server
 
